@@ -19,7 +19,7 @@ const HelperFunctions = () => {
     }
 
     const getLocation = async (location) => {
-        const path = `http://api.openweathermap.org/geo/1.0/direct?q=${location}&appid=${import.meta.env.VITE_API_KEY}`;
+        const path = `https://api.openweathermap.org/geo/1.0/direct?q=${location}&appid=${import.meta.env.VITE_API_KEY}`;
         const response = await fetch(path);
         const [jsonResponse] = await response.json();
         return jsonResponse;
