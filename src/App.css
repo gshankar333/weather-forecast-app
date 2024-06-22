@@ -1,0 +1,17 @@
+.climateDetails li {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.climateDetails li div span {
+    gap: 5px;
+
+}
+
+.climateDetails li div {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
